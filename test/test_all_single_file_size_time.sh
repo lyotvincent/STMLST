@@ -1,0 +1,3 @@
+python test_ours_time_on_single_file_size.py
+python test_seqsero_time_on_single_file_size.py
+python test_sistr_time_on_single_file_size.py

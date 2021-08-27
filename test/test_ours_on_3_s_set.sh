@@ -1,0 +1,10 @@
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py
+python test/test_ours_on_3_s_set.py

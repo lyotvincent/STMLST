@@ -1,0 +1,10 @@
+.vscode
+reformat_st_serotype.py
+The_organisms_having_serotype.md
+db/pubmlst.zip
+db/nkmlst.sqlite3
+db/stmlst.sqlite3
+db/blastdb/*
+db/pubmlst/*
+*__pycache__*
+test/md_v1
