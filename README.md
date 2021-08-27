@@ -16,7 +16,7 @@ STMLST is an effective approach and automatic bioinformatics tool for *serotype 
 ### Download database
 
 1.```cd /PATH/TO/stmlst/db```  
-2.```python download_publist.py``` could download data used for serotype identification from PUBMLST to local folder.  
+2.```python download_publist.py``` could download data used by STMLST from PUBMLST to local folder.  
 3.build blastdb and "key alleles-sequence types-serotypes" association database using```python make_db.py```.  
 
 ## How to use STMLST
