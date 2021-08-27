@@ -1,6 +1,6 @@
-# PBGI
+# STMLST
 
-PBGI is an effective approach and automatic bioinformatics pipeline for bacterial genome identification, performing automatedly and customized bioinformatics analysis using short-reads or long-reads sequencing data produced by multiple platforms such as Illumina, PacBio and Oxford Nanopore.
+STMLST is an effective approach and automatic bioinformatics tool for *serotype identification* of *multiple microbial organisms*.
 
 ## Install
 
