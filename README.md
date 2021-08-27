@@ -3,7 +3,7 @@
 STMLST is an effective approach and automatic bioinformatics tool for *serotype identification* of *multiple microbial organisms*.
 
 ## Menu
-
++ [STMLST](https://github.com/lyotvincent/STMLST#stmlst)
 + [Install](https://github.com/lyotvincent/STMLST#install)
     + [Download program](https://github.com/lyotvincent/STMLST#download-program)
     + [Download database](https://github.com/lyotvincent/STMLST#download-database)
