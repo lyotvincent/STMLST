@@ -2,8 +2,6 @@
 
 STMLST is an effective approach and automatic bioinformatics tool for *serotype identification* of *multiple microbial organisms*.
 
----
-
 ## Install
 
 ### Download program
@@ -20,8 +18,6 @@ STMLST is an effective approach and automatic bioinformatics tool for *serotype 
 1.```cd /PATH/TO/stmlst/db```  
 2.```python download_publist.py``` could download data used for serotype identification from PUBMLST to local folder.  
 3.build blastdb and "key alleles-sequence types-serotypes" association database using```python make_db.py```.  
-
----
 
 ## Help
 
