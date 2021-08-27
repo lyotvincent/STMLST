@@ -24,7 +24,7 @@ STMLST is an effective approach and automatic bioinformatics tool for *serotype 
 simple usage
 ```python stmlst.py -f XXX.fastq```  
 
-```python pbgi_pipeline.py -h``` to help.  
+```python stmlst.py -h``` to help.  
 
 parameters in pipeline:  
 
@@ -43,9 +43,18 @@ help:
 -v, --version         show program's version number and exit  
 
 a example of running stmlst:  
+
 ```python stmlst/bin/stmlst.py -f SRR5986253.contigs.fa```  
+
 [INFO] highest probability organism: ['senterica_achtman_2', 100.0, {'dnaN': '169', 'hemD': '48', 'thrA': '4', 'hisD': '16', 'purE': '12', 'aroC': '42', 'sucA': '23'}]  
 [INFO] serotype identification result table:
 |ST|aroC|dnaN|hemD|hisD|purE|sucA|thrA|serotype|
 |----|----|----|----|----|----|----|----|----|
 |2041|42|169|48|16|12|23|4|unknown:0.21428571428571427;Abaetetuba:0.7142857142857143;other:0.07142857142857142|
+
+## Data of tests and test records
+
+*test/md_v2/test_on_s_set.xlsx* contains the data used in 3.1 of our paper. It consists of NGS data of single species.  
+*test/md_v2/test_on_n_set.xlsx* contains the data used in 3.2 of our paper. It consists of NGS data of single species.  
+*test/md_v2/test_on_nanopore_sequencing_data.xlsx* contains the data used in 3.3 of our paper. It consists of nanopore sequencing data of single species.  
+*test/md_v2/test_on_multiple_microbial_organisms_set.xlsx* contains the data used in 3.4 of our paper.  It consists of NGS data of multiple microbial organisms.  
