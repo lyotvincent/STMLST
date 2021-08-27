@@ -1,6 +1,6 @@
 # STMLST
 
-STMLST is an effective approach and automatic bioinformatics tool for *serotype identification* of *multiple microbial organisms*.
+STMLST is an effective approach and automatic bioinformatics tool for ***serotype identification*** of ***multiple microbial organisms***.
 
 ## Menu
 + [STMLST](https://github.com/lyotvincent/STMLST#stmlst)
