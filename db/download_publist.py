@@ -9,7 +9,7 @@ class PublistDownloader:
 
 
     def download_dbases_xml(self):
-        subprocess.run("wget -c -P %s %s" % (self.OUTDIR, self.URL), shell=True, check=True)
+        subprocess.run("wget --no-check-certificate -c -P %s %s" % (self.OUTDIR, self.URL), shell=True, check=True)
 
 
     def judge_scheme_or_loci(self, url):
