@@ -262,13 +262,13 @@ class STMLST:
             # print(output)
             lines = output.split("\n")
             # print(lines)
+            predict = ""
             predict = lines[7].split("\t")[1]
             if "\'" in lines[8]:
                 predict += " | " + lines[8].split("\'")[1]
         except Exception as e:
-            print(e)
-        finally:
-            predict = "Error in seqsero process."
+            print("[SeqSero] %s"%str(e))
+            predict += " (Error in seqsero process.)"
         return predict
 
 if __name__ == '__main__':
