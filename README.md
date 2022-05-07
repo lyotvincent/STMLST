@@ -2,6 +2,11 @@
 
 STMLST is an effective approach and automatic bioinformatics tool for ***serotype identification*** of ***multiple microbial organisms***.
 
+* STMLST based on the key alleles-sequence types-serotypes associations for the identification of serotypes of microbial organisms.  
+* STMLST firstly construct an association database collecting the information of key alleles, sequence types and serotypes of microbial organisms.  
+* STMLST then introduce a sigmoid scoring strategy to evaluate the possible microbial organisms and the sequence types.  
+* STMLST infer the corresponding serotypes using the mapping relationships between sequence types and serotypes in the association database, and complete the identification of serotypes for microbial organisms.  
+
 ## Menu
 + [STMLST](https://github.com/lyotvincent/STMLST#stmlst)
 + [Install](https://github.com/lyotvincent/STMLST#install)
@@ -59,6 +64,10 @@ a example of running stmlst:
 |ST|aroC|dnaN|hemD|hisD|purE|sucA|thrA|serotype|  
 |----|----|----|----|----|----|----|----|----|  
 |2041|42|169|48|16|12|23|4|unknown:0.21428571428571427;Abaetetuba:0.7142857142857143;other:0.07142857142857142|  
+
+* The **first row** of the result indicates that “*senterica*” is the most likely organism to which the input data belongs.  
+* The fields of this result table are indicated in the **third row** of the result, the first item is the sequence type, the last item is the serotype, and the remaining items are the names of allele loci named aroC, dnaN, hemD, hisD, purE, sucA, and thrA.  
+* The text and numbers in the **fifth row** of the result correspond to the fields in the fifth row. “*2041*” is the serial number representing the sequence type. “*42, 169, 48, 16, 12, 23, 4*” are the serial numbers representing one of the alleles on the allele locus. “*unknown:0.21428571428571427;Abaetetuba:0.7142857142857143;other:0.07142857142857142*” means that the input data has 0.7142857142857143 probability of belonging to serotype “*Abaetetuba*”, and the other probabilities belong to unknown type.  
 
 ## Data of tests and test records
 
