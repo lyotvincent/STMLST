@@ -55,7 +55,7 @@ help:
 -s, --seqsero         fill null serotype with seqsero  
 -v, --version         show program's version number and exit  
 
-a example of running stmlst:  
+an example of running stmlst:  
 
 >```python stmlst/bin/stmlst.py -f SRR5986253.contigs.fa```  
 
