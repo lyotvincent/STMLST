@@ -69,7 +69,7 @@ an example of running stmlst:
 * The fields of this result table are indicated in the **third row** of the result, the first item is the sequence type, the last item is the serotype, and the remaining items are the names of allele loci named aroC, dnaN, hemD, hisD, purE, sucA, and thrA.  
 * The text and numbers in the **fifth row** of the result correspond to the fields in the fifth row. “*2041*” is the serial number representing the sequence type. “*42, 169, 48, 16, 12, 23, 4*” are the serial numbers representing one of the alleles on the allele locus. “*unknown:0.21428571428571427;Abaetetuba:0.7142857142857143;other:0.07142857142857142*” means that the input data has 0.7142857142857143 probability of belonging to serotype “*Abaetetuba*”, and the other probabilities belong to unknown type.  
 
-## Data of tests and test records
+## Test Data and test records
 
 *test/md_v2/test_on_s_set.xlsx* contains the data used in 3.1 of our paper. It consists of NGS data of single species.  
 *test/md_v2/test_on_n_set.xlsx* contains the data used in 3.2 of our paper. It consists of NGS data of single species.  
