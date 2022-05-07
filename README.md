@@ -9,8 +9,8 @@ STMLST is an effective approach and automatic bioinformatics tool for ***serotyp
 
 ## Menu
 + [STMLST](https://github.com/lyotvincent/STMLST#stmlst)
-+ [Install](https://github.com/lyotvincent/STMLST#install)
-    + [Download program](https://github.com/lyotvincent/STMLST#download-program)
++ [Install](https://github.com/lyotvincent/STMLST#1-install)
+    + [Download program](https://github.com/lyotvincent/STMLST#1.1-download-program)
     + [Download database](https://github.com/lyotvincent/STMLST#download-database)
 + [How to use STMLST](https://github.com/lyotvincent/STMLST#how-to-use-stmlst)
 + [Data of tests and test records](https://github.com/lyotvincent/STMLST#data-of-tests-and-test-records)
